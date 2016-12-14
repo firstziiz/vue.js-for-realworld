@@ -1,4 +1,4 @@
-# section-3
+# hw-section-3
 
 > A Vue.js project
 

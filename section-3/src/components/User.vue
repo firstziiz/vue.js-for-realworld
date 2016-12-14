@@ -1,0 +1,32 @@
+<template lang="html">
+  <div>
+    <h2>User {{ id }}</h2>
+    <router-link :to="`/user/${id - 1}`">Prevent</router-link>
+    <router-link :to="`/user/${id + 1}`">Next</router-link>
+  </div>
+
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      id: 0,
+    };
+  },
+  created() {
+    this.reload();
+  },
+  watch: {
+    $route: 'reload',
+  },
+  methods: {
+    reload() {
+      this.id = +this.$route.params.id;
+    },
+  },
+};
+</script>
+
+<style lang="css">
+</style>
