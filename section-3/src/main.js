@@ -4,9 +4,8 @@ import Vue from 'vue';
 import firebase from 'firebase';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import App from './App';
-
 import router from './router';
+import App from './App';
 
 firebase.initializeApp({
   apiKey: 'AIzaSyBLXOUP3w1jtPmPsBZLimzFgN4dmzlLJ80',
@@ -18,8 +17,7 @@ firebase.initializeApp({
 
 /* eslint-disable no-new */
 new Vue({
-  router,
   el: '#app',
-  template: '<App/>',
-  components: { App },
+  router,
+  ...App,
 });
