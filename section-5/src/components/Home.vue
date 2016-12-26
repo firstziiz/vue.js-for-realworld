@@ -27,15 +27,6 @@
   </div>
 </template>
 
-<!-- <div class="card">
-  <div class="card-content red-text">
-    <div class="center-align"><span class="card-title">TimeLine</span></div>
-  </div>
-  <div class="card-action">
-    AAA
-  </div>
-</div> -->
-
 <script>
 import { Twit, User } from '../services'
 export default {

@@ -31,7 +31,7 @@ export default {
     return {
       title: 'Title',
       name: 'Owner',
-      content: 'Bla Bla Bla.',
+      content: '~ ~ ~',
       imageSrc: 'X'
     }
   },

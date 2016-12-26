@@ -4,7 +4,7 @@
       <h4>Upload Picture</h4>
       <input @change="selectedFile" type="file" ref="file" hidden>
       <div v-show="uploading">
-        uploading..
+        Uploading.. !
         <div class="progress">
           <div ref="progress" class="determinate" style="width: 0%"></div>
         </div>

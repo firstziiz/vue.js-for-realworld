@@ -9,8 +9,6 @@
           <div class="card-action">
             <profile-detail :profile="profile"></profile-detail>
             <router-link to="/profile/edit" class="waves-effect waves-light btn">Edit</router-link>
-            <!-- <router-link to="edit" append class="waves-effect waves-light btn">Edit</router-link> -->
-            <!-- Append คือการเติมเข้าไปด้านหลัง -->
           </div>
         </div>
       </div>
