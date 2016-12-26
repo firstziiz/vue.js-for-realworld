@@ -9,11 +9,11 @@ import moment from 'moment'
 
 // Initialize Firebase
 firebase.initializeApp({
-  apiKey: 'AIzaSyBBgKW2JtYCO9a86AhZepaAf09s3Rr2AkU',
-  authDomain: 'vuejs-realworld.firebaseapp.com',
-  databaseURL: 'https://vuejs-realworld.firebaseio.com',
-  storageBucket: 'vuejs-realworld.appspot.com',
-  messagingSenderId: '651655974903'
+  apiKey: 'AIzaSyBLXOUP3w1jtPmPsBZLimzFgN4dmzlLJ80',
+  authDomain: 'vuefire-bf631.firebaseapp.com',
+  databaseURL: 'https://vuefire-bf631.firebaseio.com',
+  storageBucket: 'vuefire-bf631.appspot.com',
+  messagingSenderId: '975903474599'
 })
 
 Vue.filter('upper', (value) => {
